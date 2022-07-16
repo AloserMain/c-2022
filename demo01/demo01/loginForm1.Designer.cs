@@ -59,9 +59,10 @@ namespace demo01
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Location = new System.Drawing.Point(95, 56);
+            this.groupBox1.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(689, 440);
+            this.groupBox1.Size = new System.Drawing.Size(689, 482);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "请在文本框内选择需要的步骤";
@@ -70,9 +71,9 @@ namespace demo01
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Red;
-            this.button6.Location = new System.Drawing.Point(390, 374);
+            this.button6.Location = new System.Drawing.Point(192, 374);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(158, 45);
+            this.button6.Size = new System.Drawing.Size(268, 59);
             this.button6.TabIndex = 12;
             this.button6.Text = "删除data文件夹数据";
             this.button6.UseVisualStyleBackColor = false;
@@ -81,50 +82,50 @@ namespace demo01
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.Location = new System.Drawing.Point(142, 311);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 38);
+            this.label5.Size = new System.Drawing.Size(134, 38);
             this.label5.TabIndex = 11;
             this.label5.Text = "第五步";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.Location = new System.Drawing.Point(142, 243);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 38);
+            this.label4.Size = new System.Drawing.Size(134, 38);
             this.label4.TabIndex = 10;
             this.label4.Text = "第四步";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(142, 175);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 38);
+            this.label3.Size = new System.Drawing.Size(134, 38);
             this.label3.TabIndex = 9;
             this.label3.Text = "第三步";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(142, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 38);
+            this.label2.Size = new System.Drawing.Size(134, 38);
             this.label2.TabIndex = 8;
             this.label2.Text = "第二步";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(142, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 38);
+            this.label1.Size = new System.Drawing.Size(134, 38);
             this.label1.TabIndex = 7;
             this.label1.Text = "第一步";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
@@ -191,7 +192,7 @@ namespace demo01
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(927, 553);
+            this.ClientSize = new System.Drawing.Size(702, 497);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "loginForm1";

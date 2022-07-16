@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Text.RegularExpressions;
 namespace demo01
 {
     public partial class step2 : Form
@@ -46,6 +46,25 @@ namespace demo01
             textBox4.Text = textBox1.Text;
             textBox5.Text = textBox2.Text;
             textBox6.Text = textBox3.Text;
+            Boolean a = Regex.IsMatch(textBox1.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
+            Boolean b = Regex.IsMatch(textBox2.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
+            Boolean c = Regex.IsMatch(textBox3.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
+
+            if (!a)
+            {
+                only_number on = new only_number();
+                on.Show();
+            }
+            if (!b)
+            {
+                only_number1 on = new only_number1();
+                on.Show();
+            }
+            if (!c)
+            {
+                only_number2 on = new only_number2();
+                on.Show();
+            }
         }
     }
 }

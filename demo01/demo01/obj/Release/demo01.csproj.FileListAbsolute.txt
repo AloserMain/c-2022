@@ -13,3 +13,5 @@ C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.csproj.CoreCompileI
 C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.exe
 C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.pdb
 C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.csproj.AssemblyReference.cache
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.info.resources
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.errinfo.resources

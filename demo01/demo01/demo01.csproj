@@ -52,6 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="errinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="errinfo.Designer.cs">
+      <DependentUpon>errinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info.Designer.cs">
+      <DependentUpon>info.cs</DependentUpon>
+    </Compile>
     <Compile Include="loginForm1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +102,12 @@
     <Compile Include="step5.Designer.cs">
       <DependentUpon>step5.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="errinfo.resx">
+      <DependentUpon>errinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info.resx">
+      <DependentUpon>info.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="loginForm1.resx">
       <DependentUpon>loginForm1.cs</DependentUpon>
     </EmbeddedResource>

@@ -52,6 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data_storage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_storage.Designer.cs">
+      <DependentUpon>Data_storage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_data.Designer.cs">
+      <DependentUpon>delete_data.cs</DependentUpon>
+    </Compile>
     <Compile Include="errinfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +108,12 @@
     <Compile Include="step1.Designer.cs">
       <DependentUpon>step1.cs</DependentUpon>
     </Compile>
+    <Compile Include="step10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="step10.Designer.cs">
+      <DependentUpon>step10.cs</DependentUpon>
+    </Compile>
     <Compile Include="step2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +138,36 @@
     <Compile Include="step5.Designer.cs">
       <DependentUpon>step5.cs</DependentUpon>
     </Compile>
+    <Compile Include="step6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="step6.Designer.cs">
+      <DependentUpon>step6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="step7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="step7.Designer.cs">
+      <DependentUpon>step7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="step8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="step8.Designer.cs">
+      <DependentUpon>step8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="step9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="step9.Designer.cs">
+      <DependentUpon>step9.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Data_storage.resx">
+      <DependentUpon>Data_storage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_data.resx">
+      <DependentUpon>delete_data.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="errinfo.resx">
       <DependentUpon>errinfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +199,9 @@
     <EmbeddedResource Include="step1.resx">
       <DependentUpon>step1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="step10.resx">
+      <DependentUpon>step10.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="step2.resx">
       <DependentUpon>step2.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +213,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="step5.resx">
       <DependentUpon>step5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="step6.resx">
+      <DependentUpon>step6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="step7.resx">
+      <DependentUpon>step7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="step8.resx">
+      <DependentUpon>step8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="step9.resx">
+      <DependentUpon>step9.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -18,3 +18,10 @@ C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.errinfo.resources
 C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.only_number.resources
 C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.only_number1.resources
 C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.only_number2.resources
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.delete_data.resources
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.Data_storage.resources
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.step6.resources
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.step7.resources
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.step10.resources
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.step8.resources
+C:\Users\24488\source\repos\demo01\demo01\obj\Release\demo01.step9.resources

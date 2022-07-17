@@ -35,11 +35,13 @@ namespace demo01
             int 秒 = currentTime.Second;
             int 毫秒 = currentTime.Millisecond;
             string time = 年.ToString() + "年" + 月.ToString() + "月" + 日.ToString() + "日" + 时.ToString() + "时" + 分.ToString() + "分" + 秒.ToString() + "秒";
-            string line1 = textBox4.Text;
-            string line2 = textBox5.Text;
-            string line3 = textBox6.Text;
+            string line1 = "输入参数： " + textBox1.Text + "  输出参数： " + textBox4.Text;
+            string line2 = "输入参数： " + textBox2.Text + "  输出参数： " + textBox5.Text;
+            string line3 = "输入参数： " + textBox3.Text + "  输出参数： " + textBox6.Text;
             string[] lines = { time, line1, line2, line3 };
             System.IO.File.WriteAllLines($@"{path2}\data\step5\{time}.txt", lines);
+            Data_storage ds = new Data_storage();
+            ds.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

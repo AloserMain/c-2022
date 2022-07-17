@@ -16,6 +16,7 @@ namespace demo01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //  Application.Run(new loginForm1());//启动
             Application.Run(new loginForm1());//启动
             Application.Exit();
         }

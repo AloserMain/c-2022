@@ -103,30 +103,40 @@ namespace demo01
 
         private void button6_Click(object sender, EventArgs e)
         {
-            /// <summary>
-            /// 删除文件夹
-            /// </summary>
-            /// <param name="path">要删除的文件夹目录</param>
-            string pathData = System.Environment.CurrentDirectory;
-            string path = $@"{pathData}\data";
-                DirectoryInfo dir = new DirectoryInfo(path);
-            if (dir.Exists)
-            {
-                DirectoryInfo[] childs = dir.GetDirectories();
-                foreach (DirectoryInfo child in childs)
-                {
-                    child.Delete(true);
-                }
-                dir.Delete(true);
-                info i = new info();
-                i.Show();
-            }
-            else {
-                errinfo ei = new errinfo();
-                ei.Show();
-            }
+            delete_data dd = new delete_data();
+            dd.Show();
             
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            step6 st6 = new step6();
+            st6.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            step7 st = new step7();
+            st.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            step8 st = new step8();
+            st.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            step9 st = new step9();
+            st.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            step10 st = new step10();
+            st.Show();
         }
     }
 }

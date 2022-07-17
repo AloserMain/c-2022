@@ -21,7 +21,6 @@ namespace demo01
         private void button1_Click(object sender, EventArgs e)
 
         {
-          
             string path2 = System.Environment.CurrentDirectory;
           
 
@@ -35,8 +34,9 @@ namespace demo01
             int 时 = currentTime.Hour;
             int 分 = currentTime.Minute;
             int 秒 = currentTime.Second;
-            int 毫秒 = currentTime.Millisecond;
+           // int 毫秒 = currentTime.Millisecond;
             string time = 年.ToString() + "年" + 月.ToString() + "月" + 日.ToString() + "日" + 时.ToString() + "时" + 分.ToString() + "分" + 秒.ToString() + "秒";
+
             string line1 = textBox4.Text;
             string line2 = textBox5.Text;
             string line3 = textBox6.Text;
@@ -47,10 +47,7 @@ namespace demo01
         private void button2_Click(object sender, EventArgs e)
         {
 
-           textBox4.Text = textBox1.Text;
            
-            textBox5.Text = textBox2.Text;
-            textBox6.Text = textBox3.Text;
             Boolean a =  Regex.IsMatch(textBox1.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
             Boolean b = Regex.IsMatch(textBox2.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
             Boolean c = Regex.IsMatch(textBox3.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
@@ -58,19 +55,25 @@ namespace demo01
             if (!a) {
                 only_number on = new only_number();
                 on.Show();
+                return;
             }
             if (!b)
             {
                 only_number1 on = new only_number1();
                 on.Show();
+                return;
             }
             if (!c)
             {
                 only_number2 on = new only_number2();
                 on.Show();
+                return;
             }
 
             // int num1 =  int.Parse( textBox1.Text);
+            textBox4.Text = textBox1.Text;
+            textBox5.Text = textBox2.Text;
+            textBox6.Text = textBox3.Text;
 
 
         }
@@ -78,6 +81,21 @@ namespace demo01
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
+            textBox6.Text = "";
         }
     }
 }

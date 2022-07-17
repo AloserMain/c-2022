@@ -43,9 +43,7 @@ namespace demo01
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox4.Text = textBox1.Text;
-            textBox5.Text = textBox2.Text;
-            textBox6.Text = textBox3.Text;
+           
             Boolean a = Regex.IsMatch(textBox1.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
             Boolean b = Regex.IsMatch(textBox2.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
             Boolean c = Regex.IsMatch(textBox3.Text, @"^\d+$"); // 判断字符串是否为数字 的正则表达式
@@ -54,17 +52,33 @@ namespace demo01
             {
                 only_number on = new only_number();
                 on.Show();
+                return;
             }
             if (!b)
             {
                 only_number1 on = new only_number1();
                 on.Show();
+                return;
             }
             if (!c)
             {
                 only_number2 on = new only_number2();
                 on.Show();
+                return;
             }
+            textBox4.Text = textBox1.Text;
+            textBox5.Text = textBox2.Text;
+            textBox6.Text = textBox3.Text;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
+            textBox6.Text = "";
         }
     }
 }

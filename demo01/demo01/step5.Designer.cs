@@ -46,6 +46,7 @@ namespace demo01
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +65,7 @@ namespace demo01
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label3);
@@ -82,7 +84,7 @@ namespace demo01
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(124, 192);
+            this.button2.Location = new System.Drawing.Point(32, 192);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 40);
             this.button2.TabIndex = 7;
@@ -217,6 +219,17 @@ namespace demo01
             this.label6.TabIndex = 4;
             this.label6.Text = "结果2";
             // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Location = new System.Drawing.Point(167, 192);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(112, 40);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "清空数据";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // step5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -255,5 +268,6 @@ namespace demo01
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button3;
     }
 }
